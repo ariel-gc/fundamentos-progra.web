@@ -1,0 +1,41 @@
+body {
+    background: url(../imagenes/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: #2471b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7a9ec1;
+}
+
+input:checked {
+    background-color: #0063be !important;
+}
+
+button {
+    background-color:#65a2de
+    !important;
+    width: 100%;
+}
+.error {
+    border: red solid 1px;
+}
+
+#frec-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}

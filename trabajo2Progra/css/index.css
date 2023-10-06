@@ -1,0 +1,26 @@
+.banner0 {
+    background-image: url(../imagenes/landing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-fluid0 {
+    min-height: 100vh;
+}
+
+.text1 {
+    font-weight: bolder;
+    padding-top: 210px;
+}
+
+.btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #464646;
+    color: white;
+}
